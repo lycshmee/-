@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>吃豆人游戏</title>
+        <meta name="description" content="吃豆人（Pac-Man）是上世纪80年代一款经典街机游戏，本游戏使用HTML5完美移植该游戏，设置了多个关卡并改良了幽灵的寻路算法。">
+		<meta name="keywords" content="吃豆人,吃豆游戏,Pac-Man,HTML5游戏,Javascript游戏引擎">
+        <link rel="shortcut icon" href="favicon.png">
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            .wrapper{
+                width: 960px;
+                margin:0 auto;
+                color:#999;
+            }
+            canvas{
+                display: block;
+                background: #000;
+            }
+            .info{
+                line-height: 30px;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            p{
+                line-height: 30px;
+                text-align: center;
+                font-size: 14px;
+            }
+        </style>
+        <!--
+        --可以在这里设置一个定时器用于载入页面时
+        -->
+    </head>
+    <body>
+        <div class="wrapper">
+            <canvas id="canvas" width="960" height="640">不支持画布</canvas>
+            <div class="info">按【空格】暂停或者继续</div>
+            <p>pacman是我学习html和javascript的一次尝试</p>
+        </div>
+        <script src="game.js"></script>
+		<script src="main_page.js"></script>
+		<script async defer src="https://buttons.github.io/buttons.js"></script>
+    </body>
+    
+</html>
